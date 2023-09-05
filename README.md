@@ -16,19 +16,20 @@
 
 - API to add products to the database
             URL [POST]: /products/create
-
+            <!-- http://localhost:3000/products/create -->
 
 - API to list products
             URL [GET] : /products
+            <!-- http://localhost:3000/products -->
 
 
 - API to delete products
             URL [DELETE] : /products/:id
-
+            <!-- http://localhost:3000/products/id/delete -->
 
 - API to update quantity of a product (can be incremented or decremented)
             URL [POST] : /products/:id/update_quantity/?number=10
-
+            <!-- http://localhost:3000/products/id/update_quantity/?number=10 -->
 
 
 
