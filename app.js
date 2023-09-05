@@ -15,5 +15,5 @@ app.use('/products', require('./routes/products'));
 app.use('/products', productsRouter);
 // starting the server
 app.listen(3000, function(){
-    console.log('API is live ');
+    console.log('API is live on ');
 });
